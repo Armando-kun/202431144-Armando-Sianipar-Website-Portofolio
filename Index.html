@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Pribadi Armando Sianipar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-blue-100 text-blue-800">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="Index.html" class="text-2xl font-bold text-blue-600">ARMANDO SIANIPAR</a>
+            
+            <div class="hidden md:flex space-x-6">
+
+                <a href="Index.html" class="font-semibold text-blue-600">Home</a> 
+                <a href="Portofolio.html" class="text-gray-600 hover:text-blue-600">Porfolio</a>
+                <a href="Contact.html" class="text-gray-600 hover:text-blue-600">Kontak</a>
+            </div>
+
+            <button id="mobile-menu-button" class="md:hidden flex items-center">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </nav>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
+            <a href="index.html" class="block px-6 py-3 text-blue-600 font-semibold bg-blue-50">Home</a>
+            <a href="Portofolio.html" class="block px-6 py-3 text-gray-600 hover:bg-blue-50">Portofolio</a>
+            <a href="contact.html" class="block px-6 py-3 text-gray-600 hover:bg-blue-50">Kontak</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-8">
+
+        <section class="bg-white p-8 rounded-lg shadow-lg flex flex-col md:flex-row items-center mb-12">
+
+            <div class="md:w-1/3 text-center mb-6 md:mb-0">
+                <img src="Pas Foto Armando Sianipar.png" alt="Foto Diri" class="rounded-full w-48 h-48 mx-auto object-cover border-4 border-blue-200">
+            </div>
+
+            <div class="md:w-2/3 md:pl-10">
+                <h1 class="text-4xl font-bold text-gray-900 mb-3">Halo, Saya Armando Sianipar</h1>
+                <p class="text-xl text-blue-600 font-semibold mb-4">Mahasiswa Teknik Informatika Institut Teknologi PLN</p>
+                <p class="text-gray-600 leading-relaxed">
+                    Selamat datang di portofolio pribadi saya. Saya seorang mahasiswa dari institut teknologi pln yang bersemangat dalam pengembangan web dan desain interface. Saya selalu antusias untuk belajar teknologi baru dan menerapkan pengetahuan saya dalam proyek-proyek mendatang.
+                </p>
+            </div>
+        </section>
+
+        <section class="bg-white p-8 rounded-lg shadow-lg mb-12">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-6">Tentang Saya</h2>
+            <div class="text-gray-600 leading-relaxed max-w-3xl mx-auto">
+                <p class="mb-4">
+                    Saya adalah mahasiswa di Institut Teknologi PLN (ITPLN), saat ini menempuh semester 3. Saya berasal dari Medan Sumatra Utara.
+                </p>
+                <p class="mb-4">
+                    Minat utama saya terletak pada hardware. Saya juga memiliki ketertarikan pada desain UI/UX untuk memastikan produk yang saya buat tidak hanya berfungsi baik, tapi juga mudah dan untuk digunakan.
+                </p>
+            </div>
+        </section>
+
+        <section class="bg-white p-8 rounded-lg shadow-lg">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-8">Keahlian Saya</h2>
+            <div class="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-6">
+                
+                <div>
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-medium text-blue-700">HTML5</span>
+                        <span class="text-sm font-medium text-blue-700">80%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5">
+                        <div class="bg-blue-600 h-2.5 rounded-full" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-medium text-blue-700">CSS3</span>
+                        <span class="text-sm font-medium text-blue-700">85%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5">
+                        <div class="bg-blue-600 h-2.5 rounded-full" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-medium text-blue-700">JavaScript</span>
+                        <span class="text-sm font-medium text-blue-700">70%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5">
+                        <div class="bg-blue-600 h-2.5 rounded-full" style="width: 70%"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-medium text-blue-700">Pengetahuan Hardware</span>
+                        <span class="text-sm font-medium text-blue-700">95%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5">
+                        <div class="bg-blue-600 h-2.5 rounded-full" style="width: 95%"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-gray-300 mt-12">
+        <div class="container mx-auto px-6 py-6 text-center">
+            <p class="mb-2">&copy; 2025 ARMANDO SIANIPAR</p>
+            <p>
+                All rights reserved:
+                <a href="https://itpln.ac.id" target="_blank" rel="noopener noreferrer" 
+                   class="font-medium text-blue-400 hover:underline">
+                    Institut Teknologi PLN
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
